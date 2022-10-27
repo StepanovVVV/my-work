@@ -1,0 +1,612 @@
+@media (max-width: 1199px) {
+    /* SECTION-1_SLIDER */
+    .slick-prev {
+        left: 55px;
+    }
+
+    .slick-next {
+        right: 55px;
+    }
+
+    .slick-initialized .slick-slide {
+        max-height: 521px;
+    }
+
+    .section_slider-box img {
+        height: 543px;
+        margin-top: 12px;
+    }
+
+    .section_slider-box .section_slider-1 {
+        padding-top: 30px;
+        height: 518px;
+        margin-top: 0px;
+    }
+
+    .section_slider-info .slick-dots {
+        top: 472px;
+    }
+
+    .slick-prev, .slick-next {
+        top: 275px;
+    }
+
+    .info-slider {
+        top: 104px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    /* SECTION-1_SLIDER */
+
+    /* SECTION-2_COST-CALCULATION */
+    .cost-calculation_form form {
+        width: 460px;
+        padding: 0px 15px;
+    }
+
+    .cost-calculation_box img {
+        top: 0px;
+        max-width: 504px;
+    }
+    /* SECTION-2_COST-CALCULATION */
+
+    /* SECTION-3_CHOOSE-US */
+    .choose-us {
+        top: 0px;
+    }
+    /* SECTION-3_CHOOSE-US */
+
+    /* SECTION-4_DELIVERY-OPTIONS */
+    .delivery-options {
+        padding-top: 65px;
+    }
+    /* SECTION-4_DELIVERY-OPTIONS */
+
+    /* SECTION-5_SERVICES */
+    .delivery-options_slider .slick-next {
+        right: -15px;
+    }
+
+    .delivery-options_slider .slick-prev {
+        left: -17px;
+    }
+    /* SECTION-5_SERVICES */
+
+    /* SECTION-8_COOPERATION */
+    .cooperation .cooperation_section {
+        margin-top: 43px;
+    }
+
+    .cooperation_block {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .cooperation_info-box {
+        flex-direction: column;
+        margin-top: -28px;
+    }
+
+    .cooperation_info {
+        margin-top: -36px;
+    }
+
+    .cooperation_info-btn {
+        margin: 29px 0 60px 0;
+    }
+    /* SECTION-8_COOPERATION */
+}
+
+@media (max-width: 1024px) {
+    /* HEADER */
+    .header_block {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .header_body {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header_logo {
+        flex: 0 0 48px;
+        width: 100%;
+    }
+
+    .header_logo img {
+        margin: auto;
+    }
+
+    .header_list {
+        padding-left: 0;
+    }
+    /* HEADER */
+
+    /* SECTION-2_COST-CALCULATION */
+    .cost-calculation_box img {
+        top: 90px;
+        max-width: 434px;
+        left: 49%;
+    }
+    /* SECTION-2_COST-CALCULATION */
+
+    /* SECTION-3_CHOOSE-US */
+    .choose-us {
+        top: 89px;
+    }
+    /* SECTION-3_CHOOSE-US */
+
+    /* SECTION-4_DELIVERY-OPTIONS */
+    .delivery-options {
+        padding-top: 140px;
+    }
+
+    .delivery-options_slider .slick-prev, 
+    .delivery-options_slider .slick-next {
+        display: none !important;
+    }
+    /* SECTION-4_DELIVERY-OPTIONS */
+
+    /* FOOTER */
+    .footer_info {
+        justify-content: space-around;
+    }
+    /* FOOTER */
+}
+
+@media (max-width: 767px) {
+    /* HEADER */
+    body.lock {
+        overflow: hidden;
+    }
+
+    .header_body {
+        height: 72px;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .header_logo {
+        flex: 0 0 126px;
+    }
+
+    .header_burger {
+        display: block;
+        position: relative;
+        width: 27px;
+        height: 25px;
+        z-index: 3;
+    }
+
+    .header_burger span {
+        position: absolute;
+        background-color: var(--color-2);
+        left: 0;
+        width: 100%;
+        height: 3px;
+        top: 12px;
+        transition: all 0.3s ease 0s;
+    }
+
+    .header_burger::before,
+    .header_burger::after {
+        content: '';
+        background-color: var(--color-2);
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        left: 0;
+        transition: all 0.3s ease 0s;
+    }
+
+    .header_burger::before {
+        top: 0;
+    }
+
+    .header_burger::after {
+        bottom: 0;
+    }
+
+    .header_burger.active span {
+        transform: scale(0);
+    }
+
+    .header_burger.active::before {
+        transform: rotate(45deg);
+        top: 12px;
+    }
+
+    .header_burger.active::after {
+        transform: rotate(-45deg);
+        bottom: 10px;
+    }
+
+    .header_block {
+        top: -100%;
+        position: fixed;
+        left: 0;
+        width: 100%;
+        height: 80%;
+        background-color: var(--color-5);
+        padding: 70px 20px 20px 10px;
+        transition: all 0.3s ease 0s;
+        overflow: auto;
+    }
+
+    .header_block.active {
+        top: 20px;
+        flex-direction: column;
+        justify-content: flex-start;
+        text-align: center;
+    }
+
+    .header_list {
+        display: block;
+        padding: 0;
+    }
+
+    .header_list li {
+        margin: 0 0 20px 0;
+    }
+
+    .header_list li:first-child {
+        margin: 0 0 20px 0;
+    }
+
+    .header_menu.active,
+    .header_block.active {
+        top: 0;
+    }
+    /* HEADER */
+    
+    /* SECTION-1_SLIDER */
+    .section_slider {
+        padding-top: 0px;
+    }
+
+    .section_slider-1 {
+        margin-bottom: 0;
+    }
+
+    .section_slider-box .section_slider-1 {
+        height: 649px;
+        padding-top: 72px;
+    }
+
+    .info-slider h2 {
+        font-size: 42px;
+    }
+    /* SECTION-1_SLIDER */
+
+    /* SECTION-2_COST-CALCULATION */
+    .cost-calculation_box img {
+        display: none;
+    }
+    
+    .cost-calculation_form {
+        left: 0;
+    }
+
+    .btn-submit {
+        max-width: 100%;
+    }
+
+    .cost-calculation_form form {
+        width: 100%;
+    }
+    /* SECTION-2_COST-CALCULATION */
+
+    /* SECTION-4_DELIVERY-OPTIONS */
+    .delivery-options_box.slick-slide {
+        max-width: 100% !important;
+    }
+
+    .delivery-options_slider ul {
+        top: 540px;
+        display: flex !important;
+    }
+    /* SECTION-4_DELIVERY-OPTIONS */
+
+    /* SECTION-8_COOPERATION */
+    .cooperation_info-btn {
+        width: 100%;
+    }
+    /* SECTION-8_COOPERATION */
+
+    /* FOOTER */
+    .footer_transport,
+    .footer_services,
+    .footer_info-company {
+        display: none;
+    }
+
+    .footer_info {
+        justify-content: center;
+        padding-bottom: 44px;
+    }
+
+    .footer_contact {
+        align-items: center;
+    }
+
+    .footer_contact address {
+        text-align: center;
+    } 
+    /* FOOTER */
+}
+
+@media (max-width: 575px) {
+    .section_title {
+        font-size: 24px;
+        text-align: center;
+    }
+    
+    /* SECTION-1_SLIDER */
+    .info-slider h2 {
+        text-transform: uppercase;
+        font-size: 32px;
+    }
+
+    .info-slider p {
+        font-size: 16px;
+        max-width: 335px;
+        width: 100%;
+        margin: 10px 0 18px 0;
+    }
+
+    .info-slider .info-slider-btn {
+        max-width: 295px;
+        padding: 22px 83px 23px 33px;
+        width: 100%;
+    }
+
+    .info-slider {
+        top: 187px;
+    }
+
+    .section_slider-box img {
+        height: 497px;
+        margin-top: 57px;
+        margin-bottom: -35px;
+        object-fit: cover;
+    }
+
+    .section_slider-box span {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        background: linear-gradient(0deg, rgba(4, 5, 17, 0.6), rgba(4, 5, 17, 0.6));
+    }
+    /* SECTION-1_SLIDER */
+
+    /* SECTION-2_COST-CALCULATION */
+    .cost-calculation {
+        padding-top: 55px;
+    }
+    
+    .cost-calculation_title .section_title span {
+        left: 50%;
+        transform: translateX(-50%);
+        top: 110%;
+    }
+
+    .cost-calculation_options {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .cost-calculation_form,
+    .cost-calculation_form form {
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    .cost-calculation_form form {
+        align-items: flex-start;
+    }
+
+    .cost-calculation_form form input,
+    .cost-calculation_options div {
+        max-width: 100%;
+    }
+
+    .cost-calculation_options div:nth-child(1) {
+        margin-right: 0px;
+    }
+
+    .cost-calculation_options div:nth-child(2) {
+        margin-top: 20px;
+    }
+
+    .cost-calculation_checkbox {
+        margin-top: 6px;
+    }
+
+    #upload-text {
+        margin-top: 20px;
+    }
+
+    #upload-btn {
+        margin-top: 18px;
+    }
+
+    .btn-submit {
+        margin-bottom: 34px;
+    }
+    /* SECTION-2_COST-CALCULATION */
+
+    /* SECTION-3_CHOOSE-US */
+    .choose-us {
+        top: 60px;
+        height: 453px;
+    }
+
+    .choose-us_title {
+        padding-top: 55px;
+    }
+
+    .choose-us_info {
+        display: none;   
+    }
+
+    .choose-us_info-slider.slick-slider {
+        display: block !important;
+    }
+
+    .choose-us_info-slider.slick-initialized .slick-slide {
+        justify-content: flex-start;
+        margin-top: 50px !important;
+    }
+
+    .choose-us_box p {
+        margin: 22px auto;
+    }
+
+    .choose-us_info-slider .slick-dots {
+        top: 272px;
+    }
+
+    .slick-dots li button, .slick-dots .slick-active {
+        margin-right: 20px;
+    }
+    /* SECTION-3_CHOOSE-US */
+
+    /* SECTION-4_DELIVERY-OPTIONS */
+    .delivery-options .section_title {
+        margin-bottom: 5px;
+    }
+
+    .delivery-options_slider ul {
+        display: flex !important;
+    }
+
+    .delivery-options_slider .slick-dots {
+        top: 530px;
+    }
+    /* SECTION-4_DELIVERY-OPTIONS */
+
+    /* SECTION-5_SERVICES */
+    .services-title {
+        padding-top: 54px;
+    }
+
+    .delivery-options_slider,
+    .services_slider {
+        margin-top: 50px !important;
+    }
+
+    .services_slider .slick-dots {
+        top: 555px;
+    }
+    /* SECTION-5_SERVICES */
+
+    /* SECTION-6_ABOUT-COMPANY */
+    .about-company_block {
+        margin-top: 0;
+    }
+
+    .about-company_title span {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .about-company_info {
+        margin-right: 0;
+    }
+
+    .about-company_info p {
+        font-size: 16px;
+        text-align: justify;
+    }
+    
+    .about-company_info p:nth-child(3) {
+        margin-top: 22px;
+    }
+
+    .about-company_block img {
+        margin-top: 10px;
+    }
+
+    .slick-initialized .slick-slide {
+        flex-direction: column;
+    }
+    /* SECTION-6_ABOUT-COMPANY */
+
+    /* SECTION-7_QUESTIONS */
+    .questions {
+        padding: 50px 0 60px 0;
+    }
+
+    .accordion-button.collapsed, .accordion-button {
+        font-size: 16px;
+    }
+
+    .accordion-body {
+        font-size: 14px;
+        padding: 0 15px 12px 22px;
+    }
+
+    .accordion-button {
+        padding: 16px 0 11px 22px;
+    }
+
+    .accordion-button:not(.collapsed)::after, 
+    .accordion-button.collapsed::after {
+        margin-right: 19px;
+    }
+
+    .ask-question {
+        margin: 28px 0 0 0;
+        flex-wrap: nowrap;
+    }
+
+    .ask-question h5,
+    .ask-question p  {
+        text-align: center;
+    }
+
+    .ask-question form button {
+        padding-left: 20px;
+    }
+
+    .info-slider-icon {
+        right: 5px;
+    }
+    /* SECTION-7_QUESTIONS */
+
+    /* SECTION-8_COOPERATION */
+    .cooperation .section_title {
+        padding-top: 54px;
+    }
+
+    .cooperation .section_subtitle {
+        font-size: 16px;
+    }
+
+    .cooperation_info {
+        text-align: justify;
+        padding-right: 10px;
+    }
+
+    .cooperation_info-btn {
+        margin: 29px 0px 60px 10px;
+        max-width: 335px;
+        width: 100%;
+    }
+    /* SECTION-8_COOPERATION */
+
+    /* FOOTER */
+    .footer_info {
+        padding-bottom: 34px;
+    }
+    /* FOOTER */
+}

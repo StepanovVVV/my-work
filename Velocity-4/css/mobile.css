@@ -1,0 +1,123 @@
+@media (max-width: 641px) {
+    /* -------- TAB SECTION -------- */
+    .tabs button {
+        margin-top: 15px;
+    }
+
+    .tabs button + button {
+        margin-left: 0;
+    }
+
+    .tabs .tabs__list img {
+        margin-top: 25px;
+    }
+
+    .tabs .tabs__list h4 {
+        font-size: 24px;
+    }
+
+    /* -------- WHAT-WE-DO -------- */
+    .what-we-do .cards__box h4 {
+        margin-top: -19px;
+        font-size: 18px;
+    }
+
+    .what-we-do .cards, 
+    .services .cards {
+        margin-top: 35px;
+    }
+}
+
+@media (max-width: 620px) {
+    /* -------- TAB SECTION -------- */
+    .tabs {
+        padding-bottom: 40px;
+    }
+
+    /* -------- FOOTER -------- */
+    .footer__links li + li, 
+    .footer__social a + a {
+        margin-top: 10px;
+    }
+
+    .footer__info {
+        padding-bottom: 25px;
+    }
+
+    .footer__info h3 {
+        margin: 20px 0 15px 0;
+    }
+
+    .footer__copy {
+        padding: 20px 0 25px 0;
+    }
+}
+
+@media (max-width: 555px) {
+    /* -------- TITLE -------- */
+    .subtitle {
+        font-size: 14px;
+    }
+
+    .title {
+        font-size: 24px;
+        padding-top: 40px;
+    }
+
+    /* -------- THIS IS VELOCITY -------- */
+    .this-velocity h1 {
+        font-size: 40px;
+        padding-top: 100px;
+    }
+
+    .this-velocity {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .this-velocity div a {
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+
+    .this-velocity div a + a {
+        margin: 0 0 150px 0;
+    } 
+
+    .this-velocity__box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* -------- SERVICES -------- */
+    .services .cards__box h4 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 400px) {
+    /* -------- HEADER -------- */
+    .header_nav li + li {
+        padding-left: 10px;
+    }
+
+    .header a {
+        font-size: 22px;
+        letter-spacing: 2px;
+    }
+
+    .header_nav {
+        padding: 15px 0 15px 0;
+    }
+
+    .header_nav a {
+        font-size: 14px;
+    }
+
+    /* -------- FOOTER -------- */
+    .footer__copy a {
+        font-size: 13px;
+    }
+}
+

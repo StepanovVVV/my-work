@@ -1,0 +1,291 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Roboto", sans-serif; 
+    src: url("fonts/Roboto-Regular.ttf") format("truetype");  
+    }
+
+.section {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+
+li {
+    list-style: none;
+}
+
+.section-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    margin: 45px;
+    box-shadow: 0px 0px 5px 1px rgb(60, 54, 54);
+    font-family: "Roboto", sans-serif;
+}
+
+.section-left {
+    background-color: #4080b2;
+    padding: 40px;
+    max-width: 380px;
+}
+
+.section-left_photo {
+    max-width: 300px;
+    width: 100%;
+    border-radius: 40px;
+}
+
+.section-left h3 {
+    font-size: 22px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.section-left li {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.section-left_personal-data li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.section-left_personal-data a {
+    text-decoration: none;
+    color: black;
+    padding-left: 7px;
+}
+
+.section-left_personal-skills li {
+    list-style: disc;
+    line-height: 1.8;
+}
+
+.section-left_icons {
+    display: flex;
+    align-items: center;
+}
+
+.section-left .section-left_icons img {
+    margin-right: 15px;
+}
+
+.section-right {
+    padding: 40px 60px;
+    max-width: 730px;
+    background-color: #fdfcb8;
+}
+
+.section-right h1 {
+    font-size: 40px;
+}
+
+.section-right_text p,
+.section-right_push p,
+.section-right_skills-basic li {
+    line-height: 1.2;
+}
+
+.section-right_text p:nth-child(1),
+.section-right_text p:nth-child(2),
+.section-right h3,
+.section-right_education div,
+.section-right_courses div,
+.section-right_english p,
+.section-right_work ul:nth-child(2),
+.section-right_skills-basic,
+.section-right_push p:nth-child(1) {
+    padding-top: 20px; 
+}
+
+.section-right_text p:nth-child(1) {
+    font-size: 20px;
+}
+
+.section-right_text p:nth-child(2),
+.section-right_text p:nth-child(3),
+.section-right_text p:nth-child(4),
+.section-right_education div,
+.section-right_courses div,
+.section-right_english p,
+.section-right_work ul li,
+.section-right_skills-basic,
+.section-right_push p {
+    font-size: 18px;
+}
+
+.section-right h3 {
+    font-size: 22px;
+}
+
+.section-right_education div,
+.section-right_courses div {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.section-right_education div p:nth-child(2),
+.section-right_courses div p:nth-child(2),
+.section-right_courses div a {
+    max-width: 385px;
+    width: 100%;
+    margin-left: 60px;
+}
+
+.section-right_courses div a {
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.section-right_courses .section-right_certificate {
+    margin-left: 10px !important;
+}
+
+.section-right_skills-basic ul li:nth-child(1) {
+    margin-top: 15px;
+}
+
+.section-right_skills-basic ul {
+    margin-left: 180px;
+}
+
+.section-right_skills-basic li {
+    list-style: disc;
+}
+
+.section-right_library {
+    margin-left: 120px !important;
+}
+
+.section-right_library li {
+    list-style: circle;
+} 
+
+.section-right_work-project {
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-right_work-project li {
+    padding: 0 10px;
+    margin: 20px auto;
+}
+
+.section-right_work-project li a {
+    padding: 15px 18px;
+    background-color: #01996d;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s;
+}
+
+.section-right_work-project li a:hover {
+    box-shadow: 0px 0px 5px 2px #01996d;
+}
+
+.section-right_work-project .project_warm-place {
+    background-color: #FCB357;
+}
+
+.section-right_work-project .project_warm-place:hover {
+    box-shadow: 0px 0px 5px 2px #FCB357;
+}
+
+.section-right_work-project .project_master-tao {
+    background-color: #282B38;
+}
+
+.section-right_work-project .project_master-tao:hover {
+    box-shadow: 0px 0px 5px 2px #282B38;; 
+}
+.section-right_work-project .project_velocity {
+    background-color: #0082F3;
+}
+
+.section-right_work-project .project_velocity:hover {
+    box-shadow: 0px 0px 5px 2px #0082F3;
+}
+
+
+@media only screen and (max-width: 1199px) {
+    .section-page {
+        background-color: #4080b2;
+    }
+
+    .section-left {
+        max-width: 650px;
+        width: 100%;
+    }
+
+    .section-left .section-left_photo {
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+
+    .section-left_info {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .section-left_info-block {
+        max-width: 250px;
+        width: 100%;
+    }
+
+    .section-right {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .section-left_info {
+        flex-wrap: wrap;
+    }
+
+    .section-left {
+         padding: 40px 60px;
+    }
+
+    .section-left_info-block {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .section-page {
+        margin: 10px;
+    }
+
+    .section-right h1 {
+        font-size: 30px;
+    }
+
+    .section-right_skills-basic ul,
+    .section-right_courses div p:nth-child(2),
+    .section-right_courses div a {
+        margin-left: 0; 
+    }
+
+    .ection-right_courses {
+        margin-top: 15px;
+    }
+
+    .section-left,
+    .section-right {
+        padding: 40px 25px;
+    }
+    
+}
