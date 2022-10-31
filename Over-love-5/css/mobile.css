@@ -1,0 +1,465 @@
+@media (max-width: 1534px) {
+    .main-screen {
+        background-size: cover;
+        background-position-x: 100%;
+    }
+}
+
+@media (max-width: 1125px) {
+    /* -------- HEADER -------- */
+    .header__list li {
+        margin: 0 0 0 40px;
+    }
+
+    /* -------- S7_STEAM -------- */
+    .team__info .general-style-text {
+        padding-bottom: 15px;
+    }
+
+    .team__info .btn__begin {
+        bottom: -70px;
+    }
+
+    /* -------- FOOTER -------- */
+    .footer__menu nav {
+        column-gap: 90px;
+    }
+
+    .newsletter {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 934px) {
+    /* -------- HEADER -------- */
+    .header__list li {
+        margin: 0px 0 0 15px;
+    }
+
+    .header__list li:nth-child(7) {
+        margin: 0 0 0 10px;
+    }
+
+    /* -------- S6_ENJOY -------- */
+    .enjoy__slider {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width: 777px) {
+    /* -------- S4_UNSPLASH -------- */
+    .unsplash__slider.slick-initialized .slick-slide {
+        display: flex;
+        justify-content: center;
+    }
+
+    .unsplash__slider div + div {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    body.lock {
+        overflow: hidden;
+    }
+
+    /* -------- HEADER -------- */
+    .header__body {
+        position: fixed;
+        background-color: #158e93;
+        height: 50px;
+    }
+
+    .header__logo {
+        flex: 0 0 100px;
+    }
+
+    .header__burger {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        z-index: 3;
+    }
+
+    .header__burger span,
+    .header__burger::before,
+    .header__burger::after {
+        position: absolute;
+        background-color: #FFFFFF;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        transition: all 0.3s ease 0s;
+    }
+
+    .header__burger span {
+        top: 9px;
+    }
+
+    .header__burger::before,
+    .header__burger::after {
+        content: '';
+    }
+
+    .header__burger::before {
+        top: 0;
+    }
+
+    .header__burger::after {
+        bottom: 0;
+    }
+
+    .header__burger.active::before {
+        transform: rotate(45deg);
+        top: 9px;
+    }
+
+    .header__burger.active::after {
+        transform: rotate(-45deg);
+        bottom: 9px;
+    }
+
+    .header__burger.active span {
+        transform: scale(0);
+    }
+
+    .header__menu {
+        position: fixed;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: #158e93;
+        padding: 70px 10px 20px 10px;
+        transition: all 0.3s ease 0s;
+    }
+
+    .header__menu.active {
+        top: 0;
+    }
+
+    .header__list {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .header__list li:nth-child(7),
+    .header__list li,
+    .header__list li + li {
+        margin: 0 0 20px 0;
+    }
+
+    /* -------- S-1_LISTEN -------- */
+    .listen {
+        padding-top: 60px;
+    }
+
+    .listen__block {
+        gap: 25px;
+    }
+
+    .listen__list p {
+        margin-top: 5px;
+    }
+
+    .listen__list .btn__begin {
+        margin-top: 20px;
+    }
+
+    /* -------- S2_HOW-WORKS -------- */
+    .how-works {
+        margin-top: 40px;
+    }
+
+    .how-works__block {
+        padding-bottom: 75px;
+    }
+
+    /* -------- S-3_YOU-LOVE -------- */
+    .you-love__section {
+        margin-top: 40px;
+    }
+
+    .you-love__block {
+        margin-top: 0px;
+    }
+
+    .you-love__item {
+        padding-top: 20px;
+    }
+
+    .you-love__item p {
+        margin: 20px 0 15px 0;
+    }
+
+    /* -------- S4_UNSPLASH -------- */
+    .unsplash {
+        margin-top: 30px;
+    }
+
+    .unsplash__slider .slick-dots {
+        margin: 10px auto;
+    }
+    
+    /* -------- S5_SPEED-UP -------- */
+    .speed-up {
+        margin-top: 60px;
+    }
+
+    .speed-up__process {
+        margin-top: 25px;
+    }
+
+    /* -------- S6_ENJOY -------- */
+    .enjoy {
+        margin-top: 75px;
+    }
+
+    .enjoy__slider .slick-slide {
+        float: left;
+    }
+
+    .enjoy__info {
+        padding-left: 15px;
+    }
+
+    .enjoy__info .general-style-text {
+        padding-right: 0;
+    }
+
+    .enjoy__slider .slick-dots {
+        bottom: 15px;
+        transform: translateX(-50%);
+    }
+
+    .enjoy__bg {
+        height: 580px;
+    }
+
+    /* -------- S7_STEAM -------- */
+    .team {
+        margin-top: 50px;
+    }
+
+    .team__info .general-style-text {
+        padding-right: 0;
+    }
+
+    .team__people div + div {
+        margin-top: -50px;
+    }
+
+    .team__people {
+        margin-bottom: 150px;
+    }
+
+    /* -------- S8_DOWNLOAD -------- */
+    .download__list h2 {
+        padding-top: 50px;
+    }
+
+    .download__list {
+        padding-bottom: 70px;
+    }
+
+    /* -------- FOOTER -------- */
+    .footer__menu nav {
+        flex-direction: column;
+        padding-top: 25px;
+    }
+
+    .footer__menu div {
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .newsletter form,
+    .newsletter form input,
+    .footer__menu ul li + li,
+    .footer__menu ul li {
+        margin-top: 5px;
+    }
+
+    .newsletter form div {
+        text-align: start;
+    }
+
+    .newsletter {
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .newsletter form {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .footer__boottom {
+        margin-top: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__boottom ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        gap: 10px;
+        margin-bottom: 15px;
+    }
+
+    .footer__boottom .footer__design p {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+}
+
+@media(max-width: 668px) {
+    /* -------- S6_ENJOY -------- */
+    .enjoy__slider div + div {
+        margin-left: 61px !important;
+    }
+}
+
+
+@media(max-width: 575px) {
+    /* -------- FONTS -------- */
+    .title {
+        font-size: 50px;
+    }
+
+    /* -------- S1_LISTEN -------- */
+    .listen__list h1 {
+        font-size: 60px;
+    }
+
+    .listen__play {
+        max-width: 315px;
+        height: 315px;
+    }
+
+    .listen__play div {
+        max-width: 213px;
+        max-height: 213px;
+    }
+
+    /* -------- S2_HOW-WORKS -------- */
+    .how-works__item .title {
+        font-size: 30px;
+    }
+
+    /* -------- S3_YOU-LOVE -------- */
+    .you-love__item div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .you-love__block {
+        gap: 0px;
+    }
+
+    .you-love__person {
+        margin-left: 0;
+    }
+
+    .you-love__item {
+        padding-top: 0;
+    }
+
+    .you-love__person .title {
+        font-size: 26px;
+    }
+
+    .you-love__item p {
+        margin: 10px 0 30px;
+        padding: 0;
+    }
+
+     /* -------- S5_SPEED-UP -------- */
+    .speed-up__item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .speed-up__info {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .speed-up__info .general-style-text {
+        padding: 0;
+    }
+
+    /* -------- S7_STEAM -------- */
+    .team__social {
+        text-align: center;
+    }
+
+    .team__social a + a {
+        margin-left: 10px;
+    }
+
+    /* -------- S8_DOWNLOAD -------- */
+    .download__list h2 {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 475px) {
+    /* -------- FONTS -------- */
+    .title {
+        font-size: 35px;
+    }
+
+    /* -------- S1_LISTEN -------- */
+    .listen__list h1 {
+        font-size: 40px;
+    }
+
+    .listen__list p {
+        font-size: 18px;
+    }
+
+    .team__info .btn__begin, .listen__list .btn__begin {
+        max-width: 260px;
+        height: 65px;
+        padding: 23px 0px 23px 42px;
+    }
+    
+    .listen__list .btn__begin .btn__span {
+        right: 42px;
+        top: 10px;
+    }
+    
+    /* -------- S6_ENJOY -------- */
+    .enjoy__info .btn__begin {
+        margin: 10px 0 32px 0;
+    }
+
+    /* -------- S7_STEAM -------- */
+    .team__person-info .title {
+        font-size: 18px;
+    }
+
+    .general-style-text {
+        font-size: 12px;
+    }
+
+    .team__info .btn__begin {
+        padding-left: 33px;
+    }
+
+    .team__info .btn__begin .btn__span {
+        right: 20px;
+    }
+
+    .team__info .btn__begin {
+        max-width: 100%;
+    }
+}
