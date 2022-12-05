@@ -1,0 +1,195 @@
+.btn:focus {
+    box-shadow: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-10);
+}
+
+a:hover {
+    color: var(--color-6);
+}
+
+p {
+    margin: 0;
+}
+
+/* -------- PAGE-2-S1_FLYTHING -------- */
+.btn__page {
+    max-width: 307px;
+}
+
+.btn__page:active {
+    max-width: 290px;
+    margin: 5px 9px 5px 8px;
+}
+
+.flything_item_page {
+    padding: 81px 0;
+}
+
+/* -------- PAGE-3-S1_FLYTHING -------- */
+.flything {
+    background: url(../img/s1_flything/s1_p3-bg.jpg) no-repeat center/cover;
+}
+
+/* -------- PAGE-4-S3_OFTER -------- */
+ul {
+    margin: 0;
+}
+
+.header__list .btn {
+    border: none;
+}
+
+.ofter {
+    background-color: var(--color-10);
+    padding-bottom: 80px;
+}
+
+.ofter .titles h3 {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    max-width: 798px;
+    width: 100%;
+    margin: 30px auto;
+}
+
+.ofter_accord-box .accordion {
+    max-width: 502px;
+    width: 100%;
+}
+
+.ofter_accord {
+    display: flex;
+    justify-content: space-around;
+    margin: 31px 0 60px 0;
+}
+
+.ofter_accord .ofter_accord-box .accordion-item {
+    margin-top: 39px;
+}
+
+.ofter_accord-box {
+    max-width: 502px;
+    width: 100%;
+}
+
+.ofter_accord .collapsed,
+.ofter_accord .accordion-btn_box,
+.ofter_accord .accordion-flush .accordion-item .accordion-button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 1.3;
+    color: var(--color-6);
+    padding: 0 0 20px 0;
+}
+
+.ofter_accord-box .accordion-btn_box {
+    max-width: 415px;
+    width: 100%;
+    padding: 0;
+}
+
+.ofter_accord .accordion-button,
+.ofter_accord .accordion-flush .accordion-collapse {
+    background-color: var(--color-10);
+}
+
+.ofter_accord .accordion-button:focus {
+    /* border-color: transparent;
+    border: none; */
+    box-shadow: none;
+}
+
+.ofter_accord .accordion-body {
+    padding: 15px 0;
+}
+
+.ofter_accord .accordion-item .accordion-button::after {
+    background-image: url(../img/icons/plus.svg);
+    width: 30px;
+    height: 30px;
+    background-size: auto;
+}
+
+.ofter_accord .accordion-button:not(.collapsed) {
+    box-shadow:none;
+}
+
+.ofter_accord .accordion-button:not(.collapsed)::after {
+    transform: rotate(-135deg);
+}
+
+.ofter_accord .accordion-item,
+.ofter_accord .accordion-flush .accordion-item:last-child {
+    border: none;
+    border-bottom: 1px solid var(--color-14);
+}
+
+.ofter_accord .accordion-flush .accordion-item .accordion-button {
+    padding: 0 0 20px 0;
+}
+
+.ofter .btn {
+    margin: 0 auto;
+}
+
+.ofter .btn:active {
+    margin: 60px auto 10px;
+}
+
+.ofter .btn_faq {
+    max-width: 267px;
+}
+
+
+
+/* -------- PAGE-4-S4_MAP -------- */
+.map_faq {
+    max-height: 100%;
+    margin-bottom: -7px;
+}
+
+.map__block-faq {
+    padding: 60px 0 0 0;
+    top: 42%;
+}
+
+.map_faq iframe {
+    min-height: 690px;
+}
+
+.map_links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.map_links a {
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 1.3;
+    color: var(--color-6);
+    margin: 110px 0 67px 0;
+    padding-bottom: 7px;
+    border-bottom: 2px solid var(--color-2);
+}
+
+.map__block-faq div,
+.form__block-faq form,
+.map__block-faq p {
+    padding: 0;
+    margin: 0;
+}
+
+.form__block-faq form .form__fill p {
+    margin: 20px 0 10px 0;
+}
+
+.form__block-faq form .form__fill textarea {
+    height: 55px;
+    margin-bottom: 40px;
+}
