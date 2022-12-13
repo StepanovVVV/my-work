@@ -1,0 +1,410 @@
+@media (max-width: 1785px) {
+    /* -------- s2_about-company -------- */
+    .s2_about-company__slider {
+        background-color: var(--color-19);
+    }
+}
+
+@media (max-width: 1615px) {
+    /* -------- s3_portfolio -------- */
+    .s3_portfolio__slider .slick-slider .slick-dots {
+        right: 0px;
+    }
+}
+
+@media (max-width: 1328px) {
+     /* -------- s2_about-company -------- */
+    .s2_about-company .container {
+        padding: 0;
+    }
+
+    .s2_about-company__slider .title,
+    .s2_about-company__slider .slick-slider {
+        position: relative;
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+    .s2_about-company__slider {
+        right: 0;
+    }
+
+    .slick-slider .slick-dots {
+        right: -15px;
+    }
+
+    /* -------- s6_request -------- */
+    .s6_request {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .s6_request__right-block .title {
+        text-align: center;
+    }
+
+    .s6_request__right {
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .s6_request__right-wrapper {
+        margin: 70px 0 70px 0;
+    }
+
+    .s6_request__right-wrapper {
+        display: flex;
+        gap: 30px;
+        margin-top: 138px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .s6_request__left {
+        justify-content: center;
+        padding-right: 0;
+    }
+
+    .s6_request__left-box {
+        max-width: 509px;
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .s6_request__left-box form .btn {
+        max-width: 100%;
+    }
+
+    .s6_request__right-block {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 1240px) {
+    /* -------- s4_we-offer -------- */
+    .s4_we-offer__wrapper div:nth-child(1),
+    .s4_we-offer__wrapper div:nth-child(2),
+    .s4_we-offer__wrapper div:nth-child(3),
+    .s4_we-offer__wrapper div:nth-child(4),
+    .s4_we-offer__wrapper div:nth-child(5),
+    .s4_we-offer__wrapper div:nth-child(6),
+    .s4_we-offer__wrapper div:nth-child(10),
+    .s4_we-offer__wrapper div:nth-child(11),
+    .s4_we-offer__wrapper div:nth-child(12),
+    .s4_we-offer__wrapper div:nth-child(13) {
+        border: 1px solid var(--color-13);
+    }
+
+    .s4_we-offer__wrapper {
+        position: relative;
+    }
+
+    .s4_we-offer__wrapper .btn__more {
+        position: absolute;
+        bottom: 20px;
+    }
+
+    .s4_we-offer__wrapper .btn__more .btn {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 1142px) {
+    /* -------- s5_our-advantages -------- */
+    .s5_our-advantages .title {
+        text-align: center;
+        padding-top: 220px;
+    }
+
+    .s5_our-advantages__wrapper {
+        margin-top: 40px;
+        row-gap: 30px;
+        padding-bottom: 70px;
+    }
+}
+
+@media (max-width: 1089px) {
+    /* -------- s3_portfolio -------- */
+    .s3_portfolio__slider .slick-slider {
+        margin: 70px 0 40px 0;
+    }
+
+    .s3_portfolio__slider .slick-block .btn {
+        display: none;
+    }
+
+    .btn__portfolio {
+        display: block;
+    }
+}
+
+@media (max-width: 930px) {
+    /* -------- header -------- */
+    .header__menu.active {
+        right: -25%;
+    }
+
+    /* -------- s2_about-company -------- */
+    .s2_about-company__slider {
+        right: -50%;
+        top: 0;
+        transform: translate(-50%, 0%);
+        padding: 0 15px;
+    }
+
+    .s2_about-company__slider .title {
+        margin-top: 180px;
+    }
+
+    .s2_about-company .img-background {
+        height: 750px;
+    }
+}
+
+@media (max-width: 877px) {
+    /* -------- footer -------- */
+    .footer__nav {
+        display: none;
+    }
+
+    .footer__menu ul {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 757px) {
+    .title {
+        margin-top: 30px;
+    }
+
+    /* -------- header -------- */
+    .header__body {
+        height: 60px;
+    }
+
+    .header__logo {
+        flex: 0 0 150px;
+    }
+
+    /* -------- s1-web -------- */
+    .s1-web {
+        background-size: cover;
+    }
+
+    /* -------- s6_request -------- */
+    .s6_request__left .title, .s6_request__right .title {
+        padding-top: 60px;
+    }
+
+    .s6_request__right-wrapper {
+        margin-top: 60px;
+    }
+
+    .s6_request__left-box form .btn {
+        margin: 80px 0 80px 0;
+    }
+}
+
+@media (max-width: 575px) {
+    *, *::after, *::before {
+        font-size: 14px;
+    }
+
+    /* -------- title -------- */
+    .title {
+        font-size: 34px;
+        margin-top: 50px; 
+    }
+
+    /* -------- btn -------- */
+    .btn {
+        max-width: 220px;
+    }
+
+    /* -------- header -------- */
+    .header__menu { 
+        top: 60px;
+    }
+
+    .header__menu.active {
+        right: 0;
+        text-align: center;
+        padding: 80px 0 0 0;
+    }
+
+    .header__burger.active {
+        top: 0px;
+    }
+
+    .header__burger-mob {
+        display: none;
+    }
+
+    .header__link::after {
+        width: 100%;
+        bottom: -5px;
+    }
+
+    .header__list .header__social {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header__list .header__btn {
+        margin-top: 40px;
+    }
+
+    .header__list .header__social {
+        margin-top: 80px;
+    }
+
+    /* -------- s1-web -------- */
+    .s1-web .title {
+        font-size: 34px;
+        padding-top: 90px;
+    }
+
+    .s1-web p {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .s1-web .btn {
+        margin: 30px auto 230px;
+    }
+
+    /* -------- s2_about-company -------- */
+    .slick-slider .slick-dots {
+    position: absolute;
+    bottom: -27px;
+    display: flex;
+    gap: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 140px;
+    }
+
+    .s2_about-company .img-background {
+        height: 420px;
+    }
+
+    .slick-slider {
+        margin: 20px 0 80px 0;
+    }
+
+    .slick-block p {
+        text-align: justify;
+    }
+
+    .slick-block p + p {
+        margin-top: 20px;
+    }
+
+    .s2_about-company__slider .title {
+        margin-top: 120px;
+    }
+
+    /* -------- s3_portfolio -------- */
+    .s3_portfolio__slider .slick-slider .slick-dots {
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -100%);
+    }
+
+    .btn__portfolio {
+        margin-top: -50px;
+    }
+
+    /* -------- s4_we-offer -------- */
+    .s4_we-offer .title {
+        padding-top: 60px;
+    }
+
+    .s4_we-offer__wrapper {
+        margin-top: 50px;
+        padding-bottom: 90px;
+    }
+
+    /* -------- s5_our-advantages -------- */
+    .s5_our-advantages__box {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .s5_our-advantages__box p {
+        margin-left: 0;
+    }
+
+    .s5_our-advantages__wrapper {
+        margin-top: 20px;
+        row-gap: 10px;
+        padding-bottom: 30px;
+    }
+
+    /* -------- footer -------- */
+    .footer__menu ul li {
+        display: none;
+    }
+
+    .footer__wrapper {
+        padding-top: 25px;
+    }
+
+    .footer__menu {
+        margin-bottom: 25px;
+    }
+
+    .footer__menu ul .footer__connect {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__social {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-top: 20px;
+    }
+
+    .footer__social .social__list {
+        margin-bottom: 30px;
+    }
+
+    .footer__social h3 {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 514px) {
+        .s4_we-offer__wrapper .btn__more .btn {
+            max-width: 100%;
+        }
+}
+
+@media (max-width: 400px) {
+    /* -------- s2_about-company -------- */
+    .s2_about-company__slider .title {
+        margin-top: 105px;
+    }
+}
+
+@media (max-width: 360px) {
+    .title {
+        margin-top: 15px;
+    }
+
+    /* -------- s2_about-company -------- */
+    .s2_about-company__slider .title {
+        margin-top: 53px;
+    }
+
+    /* -------- s5_our-advantages -------- */
+    .s5_our-advantages__wrapper {
+        margin-top: 5px;
+        row-gap: 5px;
+        padding-bottom: 10px;
+    }
+}
